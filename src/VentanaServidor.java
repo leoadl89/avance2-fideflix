@@ -71,9 +71,9 @@ public class VentanaServidor extends JFrame {
     public static void main(String[] args) {
 
         SwingUtilities.invokeLater(() -> {
-            //Levanta la ventana del servidor
+            //
             new VentanaServidor();
-            //Y al mismo tiempo abre la ventana de acceso del cliente
+            //
             new VentanaAcceso();
         });
     }
